@@ -10,9 +10,9 @@ export function About() {
         <p>That feels like an existential question, don't you think?</p>
         {!!params.aboutID && <p>Params example: {params.aboutID}</p>}
       </main>
-      <nav>
+      /*<nav>
         <Link to="/">Home</Link>
-      </nav>
+      </nav>*/
     </>
   );
 }
